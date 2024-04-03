@@ -153,3 +153,31 @@ section {
       margin: 0;
     }
   }
+
+  .experience-item{
+    margin-top: 25px;
+    display: block;
+}
+.company{
+    color: var(--secondary);
+}
+
+    #projects .project-cards {
+      display: flex;
+      padding: 10px;
+      flex-wrap: wrap;
+  }
+  #projects img {
+      width: 100%;
+      border: 1px solid #e2e2e2;
+  }
+  #projects .project-cards {
+      width: 400px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 5px;
+      border: 1px solid #e2e2e2;
+      gap: 5px;
+      border-radius: 2px;
+  }
